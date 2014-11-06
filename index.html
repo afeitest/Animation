@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-scroll">
+<head>
+	<title>Animation</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+	<meta name="apple-touch-fullscreen" content="YES" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta http-equiv="x-rim-auto-match" content="none" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- This is to force IE into the latest version mode, overriding 'compatibility' mode which breaks everything. -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/image/icon_72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/image/icon_144.png" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/icon.css" rel="stylesheet" type="text/css">
+	<link href="css/animations.css" rel="stylesheet" type="text/css">
+	<!--feature-->
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="no-scroll">
+	<section class="doc full-screen" role="page" type="start">
+		<header>
+			<div class="logo"><img src="img/image/logo.png" alt=""></div>
+			<div class="btnav" id="navbt"><i class="icon-nav"></i></div>
+		</header>
+		<aside class="nav scroll-y" id="nav">
+			<ul class="nav__list">
+				<li data-section="basic"><span>基本效果</span></li>
+				<li data-section="turn"><span>翻转效果</span></li>
+				<li data-section="fadein"><span>淡入效果</span></li>
+				<li data-section="fadeout"><span>淡出效果</span></li>
+				<li data-section="popup"><span>弹跳进入效果</span></li>
+				<li data-section="popdown"><span>弹跳退出效果</span></li>
+				<li data-section="rotatein"><span>旋转进入效果</span></li>
+				<li data-section="rotateout"><span>旋转退出效果</span></li>
+				<li data-section="spe"><span>特效</span></li>
+			</ul>
+		</aside>
+		<section class="content" data-show="an-fadeIn"></section>
+	</section>
+
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/hammer.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>
+</body>
+</html>
