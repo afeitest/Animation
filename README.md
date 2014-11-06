@@ -1,8 +1,7 @@
 
 ###HTML5 & CSS3 动画效果库 
 
-####效果请参考
-[在线预览](http://baipengfei.github.io/Animation/)    
+####效果请参考 [点击预览](http://baipengfei.github.io/Animation/)    
 
 ####用法
 >  
