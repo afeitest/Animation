@@ -1,0 +1,16 @@
+/* ----------------------------------
+ * icon
+ * ---------------------------------- */
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	vertical-align: top;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	font-style: normal;
+}
+
+.icon-nav{background-image: url('../img/ic_nav_2.png');}
+.active .icon-nav{background-image: url('../img/ic_nav_1.png');}
+
