@@ -6,4 +6,11 @@ Animation
 ####用法
 ```
 <div class="an-flash">Animation</div>
+```  
+  
+####结构
 ```
+                                     
+>ddd
+ 
+>ddd
