@@ -5,7 +5,7 @@
 
 ####用法
 >  
-请引用animation.css  
+请引用animations.css  
 预览页面选择好效果后复制class名称  
 粘贴至节点中  
 例如：  
